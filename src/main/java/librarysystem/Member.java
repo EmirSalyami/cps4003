@@ -52,10 +52,10 @@ public class Member {
     @Override
     public String toString() {
         String strLines = "";
-        strLines = strLines + "MEMBER ID: " + numMemberId + System.lineSeparator();
-        strLines = strLines + "MEMBER NAME: " + strMemberName + System.lineSeparator();
-        strLines = strLines + "EMAIL: " + strEmail + System.lineSeparator();
-        strLines = strLines + "MEMBER TYPE: " + strMembershipType + System.lineSeparator();
+        strLines = strLines + "member id: " + numMemberId + System.lineSeparator();
+        strLines = strLines + "member name: " + strMemberName + System.lineSeparator();
+        strLines = strLines + "email: " + strEmail + System.lineSeparator();
+        strLines = strLines + "member type: " + strMembershipType + System.lineSeparator();
         return strLines;
     }
 }
